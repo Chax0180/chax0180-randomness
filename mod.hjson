@@ -1,0 +1,10 @@
+name: c0180rndmns
+description:'''
+Adds random things.
+'''
+author: Chax0180
+minGameVersion: 146
+version: 0.0.1
+displayName: "Chax0180's Randomness"
+subtitle: "Someone once told me using flak was gay."
+repo: "Chax0180/chax0180-randomness"
