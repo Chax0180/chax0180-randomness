@@ -1,35 +1,26 @@
 type: naval
-name: Mako
-description: Fires a barrage of homing bullets at enemy targets.
+name: MS-1 Destroyer
+description: Fires artillery shells, standard bullets, and a barrage of aerial flak at enemy targets.
 weapons:[
 {
-    name: mako-gun
+    name: destroyer-artillery
     rotate: true
-    rotateSpeed: 5
-    x: 5
-    y: -5
+    rotateSpeed: 1
+    y: 12
     reload: 10
-    mirror: true
-    alternate: true
-    shootSound: pew
-    inaccuracy: 40
+    mirror: false
+    shootSound: mediumCannon
+    inaccuracy: 0
     bullet: {
-      homingPower: 0.05
-      homingDelay: 5
+        type: artilleryBulletType
       speed: 5
-      lifetime: 50
-      damage: 10
+      lifetime: 240
+      damage: 150
       pierce: true
-      pierceCap: 1
+      pierceCap: 4
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
-      trailColor: bf92f9
-      backColor: bf92f9
-      lightColor: bf92f9
-      lightOpacity: 0.7
-      frontColor: bf92f9
-}
     parts: [
     {
       type: RegionPart
@@ -42,4 +33,3 @@ weapons:[
     }
   ]
 }
-]
