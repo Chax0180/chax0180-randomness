@@ -1,6 +1,12 @@
 type: naval
 name: NV-086 Destroyer
 description: Fires artillery shells, standard bullets, and a barrage of aerial flak at enemy targets.
+speed: 2
+accel: 0.01
+deathShake: 5
+health: 46000
+armor: 25
+forceMultiTarget: true
 weapons:[
 {
     name: destroyer-artillery
@@ -21,6 +27,42 @@ weapons:[
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
+  smokeEffect: {
+    type: ParticleEffect
+    particles: 10
+    length: 40
+    lifetime: 180
+    interp: circleOut
+    cone: 15
+    colorFrom: feb380
+    colorTo: bc5452
+    sizeFrom: 6
+    sizeTo: 0
+  }
+hitEffect:{
+    type: ParticleEffect
+    particles: 30
+    length: 60
+    lifetime: 180
+    interp: circleOut
+    cone: 180
+    colorFrom: feb380
+    colorTo: bc5452
+    sizeFrom: 6
+    sizeTo: 0
+  }
+despawnEffect:{
+    type: ParticleEffect
+    particles: 30
+    length: 60
+    lifetime: 180
+    interp: circleOut
+    cone: 180
+    colorFrom: feb380
+    colorTo: bc5452
+    sizeFrom: 6
+    sizeTo: 0
+  }
     parts: [
     {
       type: RegionPart
