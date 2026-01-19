@@ -20,7 +20,7 @@ weapons:[
     bullet: {
         type: BasicBulletType
       speed: 8
-    drag: 0.05
+    drag: 0.0015
       lifetime: 240
       damage: 395
       pierce: true
