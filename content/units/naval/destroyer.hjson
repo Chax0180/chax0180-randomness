@@ -1,5 +1,5 @@
 type: naval
-name: MS-1 Destroyer
+name: NV-086 Destroyer
 description: Fires artillery shells, standard bullets, and a barrage of aerial flak at enemy targets.
 weapons:[
 {
@@ -7,15 +7,15 @@ weapons:[
     rotate: true
     rotateSpeed: 1
     y: 12
-    reload: 10
+    reload: 300
     mirror: false
-    shootSound: mediumCannon
+    shootSound: shootRipple
     inaccuracy: 0
     bullet: {
         type: artilleryBulletType
-      speed: 5
+      speed: 10
       lifetime: 240
-      damage: 150
+      damage: 395
       pierce: true
       pierceCap: 4
       trailChance: -1
