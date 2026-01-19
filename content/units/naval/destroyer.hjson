@@ -28,6 +28,7 @@ weapons:[
       trailChance: -1
       trailLength: 22
       trailWidth: 2.2
+        sprite: missile-large
   smokeEffect: {
     type: ParticleEffect
     particles: 20
