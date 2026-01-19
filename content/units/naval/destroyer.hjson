@@ -18,8 +18,9 @@ weapons:[
     shootSound: shootRipple
     inaccuracy: 0
     bullet: {
-        type: artilleryBulletType
-      speed: 10
+        type: BasicBulletType
+      speed: 8
+    drag: 0.05
       lifetime: 240
       damage: 395
       pierce: true
@@ -29,38 +30,38 @@ weapons:[
       trailWidth: 2.2
   smokeEffect: {
     type: ParticleEffect
-    particles: 10
-    length: 40
+    particles: 20
+    length: 60
     lifetime: 180
     interp: circleOut
     cone: 15
-    colorFrom: feb380
-    colorTo: bc5452
+    colorFrom: d7d7d7
+    colorTo: 000000
     sizeFrom: 6
     sizeTo: 0
   }
 hitEffect:{
     type: ParticleEffect
     particles: 30
-    length: 60
+    length: 120
     lifetime: 180
     interp: circleOut
     cone: 180
     colorFrom: feb380
     colorTo: bc5452
-    sizeFrom: 6
+    sizeFrom: 15
     sizeTo: 0
   }
 despawnEffect:{
     type: ParticleEffect
     particles: 30
-    length: 60
+    length: 120
     lifetime: 180
     interp: circleOut
     cone: 180
     colorFrom: feb380
     colorTo: bc5452
-    sizeFrom: 6
+    sizeFrom: 15
     sizeTo: 0
   }
     parts: [
